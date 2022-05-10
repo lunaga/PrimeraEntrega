@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="absolute h-full w-full m-0 p-0">
+
+    <!-- HEADER=================================================================================================== -->
+
+    <header class="absolute text-gray-600 body-font bg-black w-full">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-green-500 rounded-full"
+                    viewBox="0 0 24 24">
+                    <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                </svg>
+                <span class="ml-3 text-xl text-white font-bold">GUITAR MASTER</span>
+            </a>
+            <nav
+                class="md:ml-auto flex flex-wrap items-center text-zinc-200 text-base justify-center transition cursor-pointer">
+                <a href="./productos.html" class="mr-5 hover:text-white">Inicio</a>
+                <a href="./carrito.html" class="mr-5 hover:text-white">Mi Carrito</a>
+            </nav>
+            <button
+                class="font-bold inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0"><a
+                    href="./index.html">Menu</a>
+            </button>
+        </div>
+    </header>
+
+    <!-- MAIN=================================================================================================== -->
+
+    <main class="h-full">
+
+        <!-- PRODUCTOS -->
+
+        <div class="h-full pt-20 grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3">
+            <div
+                class="h-full w-full p-12 lg:col-span-2 md:col-span-1 bg-neutral-100 lg:text-4xl text-3xl font-black leading-9 text-black-800 dark:text-black">
+                <div>
+                    Productos
+                </div>
+
+                <div id="productos-container"
+                    class="md:flex items-strech py-8 md:py-10 lg:py-8 border-t border-black-50 font-normal">
+                </div>
+            </div>
+
+            <!-- PARTE DERECHA -->
+
+            <div
+                class="h-full w-full p-12 col-span-1 bg-neutral-200 lg:text-4xl text-3xl font-black text-gray-800 dark:text-black">
+                <div class="lg:text-4xl text-3xl font-black leading-9 text-gray-800 dark:text-black">
+                    Sumario
+                </div>
+                <div class="grid grid-cols-2">
+                    <div class="flex flex-col items-start pt-16 font-normal">
+                        <div class="pt-5 text-base leading-none text-gray-800 dark:text-black">Subtotal</div>
+                        <div class="pt-5 text-base leading-none text-gray-800 dark:text-black">Impuesto IVA 21%</div>
+                        <div class="pt-5 text-base leading-none text-gray-800 dark:text-black">Envio</div>
+                    </div>
+                    <div class="flex flex-col items-end pt-16 font-medium">
+                        <div id="subtotal" class="pt-5 text-base leading-none text-gray-800 dark:text-black">$</div>
+                        <div id="impuesto" class="pt-5 text-base leading-none text-gray-800 dark:text-black">$</div>
+                        <div id="envio" class="pt-5 text-base leading-none text-gray-800 dark:text-black">$</div>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="flex items-center pb-6 justify-between lg:pt-5 pt-20">
+                        <p class="text-2xl leading-normal text-gray-800 dark:text-black">Total</p>
+                        <p id="total"
+                            class="text-2xl font-bold leading-normal text-right text-gray-800 dark:text-black">,</p>
+                    </div>
+                    <button id="checkout"
+                        class="text-base leading-none w-full py-5 bg-gray-800 border-gray-800 border focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800 text-white dark:hover:bg-gray-700">Checkout</button>
+                </div>
+            </div>
+
+
+
+    </main>
+
+    <script src="./js/cart.js"></script>
+    <script src="./js/cart-functions.js"></script>
+</body>
+
+</html>

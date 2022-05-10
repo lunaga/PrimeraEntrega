@@ -1,0 +1,52 @@
+[
+  {
+    "id": "68271c37-9466-4d2c-9990-498ae817d76c",
+    "timestamp": "2022-05-08 14:07:25:395000 (May Sunday 8th)",
+    "nombre": "Fender Stratocaster",
+    "descripcion": "Guitarra Stratocaster de caoba ",
+    "codigo": 123,
+    "precio": 90000,
+    "stock": 3,
+    "foto": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651002761144.jpg"
+  },
+  {
+    "id": "9cc9715a-bc30-44b3-ac34-726d5924dab2",
+    "timestamp": "2022-05-08 14:09:45:012000 (May Sunday 8th)",
+    "nombre": "Gibson Les Paul",
+    "descripcion": "Les Paul custom ",
+    "codigo": 3324,
+    "precio": 125000,
+    "stock": 4,
+    "foto": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651002624921.jpg"
+  },
+  {
+    "id": "2b201d1f-8fc6-4987-a31c-4cc351a88298",
+    "timestamp": "2022-05-08 14:10:54:822000 (May Sunday 8th)",
+    "nombre": "Epiphone Sg",
+    "descripcion": "Sg de Epiphone clasic",
+    "codigo": 2525,
+    "precio": 110000,
+    "stock": 2,
+    "foto": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651097743698.jpg"
+  },
+  {
+    "id": "9947cf6d-88b1-41b3-b563-762f40266d8d",
+    "timestamp": "2022-05-08 14:11:59:065000 (May Sunday 8th)",
+    "nombre": "Epiphone Casino 1968",
+    "descripcion": "Casino 1968 clasic",
+    "codigo": 334243,
+    "precio": 120000,
+    "stock": 1,
+    "foto": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651002449775.jpg"
+  },
+  {
+    "id": "2f9e9b03-b743-423d-9d26-5025a1e72e99",
+    "timestamp": "2022-05-08 14:12:58:251000 (May Sunday 8th)",
+    "nombre": "Fender Telecaster",
+    "descripcion": "Telecaster de caoba",
+    "codigo": 55634,
+    "precio": 95000,
+    "stock": 10,
+    "foto": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651006866808.jpg"
+  }
+]

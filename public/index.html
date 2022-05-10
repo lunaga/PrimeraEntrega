@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body class="flex flex-col justify-center items-center font-mono">
+
+    <h1 class="text-4xl m-8">Iniciar como:</h1>
+
+    <form method="post" action="/auth" class="flex gap-5">
+        <button id="user" type="submit" name="user" value="isUser"
+            class="pt-2 pb-4 px-8 bg-zinc-400 hover:bg-zinc-300 transition duration-300 text-4xl rounded-lg shadow-md hover:shadow-xl">User</button>
+        <button id="admin" type="submit" name="user" value="isAdmin"
+            class="pt-2 pb-4 px-8 bg-black hover:bg-zinc-400 transition duration-300 text-white text-4xl rounded-lg shadow-md hover:shadow-xl">Admin</button>
+    </form>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,45 @@
+[
+  {
+    "id": "000000",
+    "timestamp": "000000",
+    "productos": {
+      "id": "000000",
+      "timestamp": "000000",
+      "nombre": "000000",
+      "descripcion": "000000",
+      "codigo": 0,
+      "foto": "000000",
+      "precio": 0,
+      "stock": 0,
+      "cantidad": 0
+    }
+  },
+  {
+    "id": "73e1f273-7ec6-4844-b900-565fe8f52081",
+    "timestamp": "2022-05-08 14:46:32:042000 (May Sunday 8th)",
+    "productos": [
+      {
+        "id": "2b201d1f-8fc6-4987-a31c-4cc351a88298",
+        "timestamp": "2022-05-08 14:10:54:822000 (May Sunday 8th)",
+        "nombre": "Epiphone Sg",
+        "descripcion": "Sg de Epiphone clasic",
+        "codigo": 2525,
+        "foto": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651097743698.jpg",
+        "precio": 110000,
+        "stock": 2,
+        "cantidad": 3
+      },
+      {
+        "id": "9cc9715a-bc30-44b3-ac34-726d5924dab2",
+        "timestamp": "2022-05-08 14:09:45:012000 (May Sunday 8th)",
+        "nombre": "Gibson Les Paul",
+        "descripcion": "Les Paul custom ",
+        "codigo": 3324,
+        "foto": "https://cdn.stocksnap.io/stocksnap-user-uploads/169148-1651002624921.jpg",
+        "precio": 125000,
+        "stock": 4,
+        "cantidad": 1
+      }
+    ]
+  }
+]
